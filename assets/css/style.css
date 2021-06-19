@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Start header style */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,6 +41,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/* End header style */
 
 a {
     color: #ffffff;
@@ -69,12 +71,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Start benefits style */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,8 +81,11 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    margin-bottom: 32px;
     color: #ffffff;
+}
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px; 
 }
 
 .benefits h3 {
@@ -98,14 +98,40 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* End benefits style */
 
-.content {
+/* Start content style */
+.search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .content img {
@@ -116,7 +142,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*End content style */
 
+/* Start footer style */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,3 +155,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* End footer style */

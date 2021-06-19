@@ -8,4 +8,5 @@ Given files for an active website, the end goal is to refactor the files so that
 - Added comments to the stylesheet for better readability.
 - Replaced some of the divs with semantic elements to the HTML page and updated the corresponding names in the stylesheet.
 - Added a title to the <head> element.
+- Added alt attributes to images for better screen reader usability.
 
